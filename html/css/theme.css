@@ -25,9 +25,17 @@ body {
 	font-size: 13px;
 	line-height: 20px;
 	color: #9c9c9c;
-    background-image: url(../images/bg.jpg);
+    /*background-image: url(../images/bg.jpg);
     background-position: 0 0 !important;
-    background-repeat: repeat;
+    background-repeat: repeat;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,fc2500+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,a00a00+100 */
+	background: #cc0000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cc0000 0%, #a00a00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #cc0000 0%,#a00a00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #cc0000 0%,#a00a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#a00a00',GradientType=0 ); /* IE6-9 */
 }
 .navbar {margin:0;
 }
@@ -39,7 +47,7 @@ body {
 .header {
 	padding: 0 20px;
 	margin: 0 -20px;
-	background:url(../images/header_bg.png) repeat-x #fff;
+	background:url(../images/header_bg2.png) repeat-x #fff;
 }
 
 .fleft {float:left;
@@ -57,21 +65,41 @@ img {
 }
 .logo img {
     max-width:100%;
-    margin-top: 28px;
+    margin-top: 21px;
 }
 
 div.wrap{
-    padding: 50px 0;
+    padding: 12px 0;
 }
 
 /*nav*/
-.navbar .nav {margin:35px 0 0;
+.navbar .nav {margin:21px 20px 0;
 }
 .menu_wrap .nav li {
-	margin: 0;
+	/*margin: 0;*/
+	margin-right: 8px;
 	padding: 0;
 	position: relative;
 	display:inline-block;
+	font-family: 'Open Sans', sans-serif;
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	background: rgba(242,234,236,1);
+	/*background: -moz-linear-gradient(top, rgba(242,234,236,1) 0%, rgba(193,158,103,1) 52%, rgba(233,212,179,1) 85%, rgba(233,212,179,1) 100%);*/
+	/*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,234,236,1)), color-stop(52%, rgba(193,158,103,1)), color-stop(85%, rgba(233,212,179,1)), color-stop(100%, rgba(233,212,179,1)));*/
+	/*background: -webkit-linear-gradient(top, rgba(242,234,236,1) 0%, rgba(193,158,103,1) 52%, rgba(233,212,179,1) 85%, rgba(233,212,179,1) 100%);*/
+	/*background: -o-linear-gradient(top, rgba(242,234,236,1) 0%, rgba(193,158,103,1) 52%, rgba(233,212,179,1) 85%, rgba(233,212,179,1) 100%);*/
+	/*background: -ms-linear-gradient(top, rgba(242,234,236,1) 0%, rgba(193,158,103,1) 52%, rgba(233,212,179,1) 85%, rgba(233,212,179,1) 100%);*/
+	/*background: linear-gradient(to bottom, rgba(242,234,236,1) 0%, rgba(193,158,103,1) 52%, rgba(233,212,179,1) 85%, rgba(233,212,179,1) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2eaec', endColorstr='#e9d4b3', GradientType=0 );*/
+
+	-webkit-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	-moz-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+
 }
 .menu_wrap .nav li:first-child {
 	border-left: 0;
@@ -92,21 +120,40 @@ div.wrap{
 	z-index:10;
 	padding:0 25px;
 	line-height:47px;
-	color: #5f5f5f;
+	color: #000;
 	font-size:15px;
 	text-align:left;
 	text-shadow: none;
 }
-.menu_wrap .nav li.last a {padding-right:0;
+.menu_wrap .nav li.last a {padding-right:28px;
 }
 .menu_wrap .nav li:hover a,
 .menu_wrap .nav li.current:hover a,
 .menu_wrap .nav li.current a {
-	color:#cba457;
+	color:#fff;
+	background-color: #d2c48c;
+
+	-webkit-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	-moz-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 .menu_wrap .nav li a.current{
-	color: #cba457;
+	color: #fff;
+
+	background-color: #d2c48c;
+
+	-webkit-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	-moz-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+	box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 .sub-menu > a {position: relative;
