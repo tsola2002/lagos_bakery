@@ -47,7 +47,7 @@ body {
 .header {
 	padding: 0 20px;
 	margin: 0 -20px;
-	background:url(../images/header_bg.png) repeat-x #fff;
+	background:url(../images/header_bg2.png) repeat-x #fff;
 }
 
 .fleft {float:left;
@@ -65,7 +65,7 @@ img {
 }
 .logo img {
     max-width:100%;
-    margin-top: 28px;
+    margin-top: 21px;
 }
 
 div.wrap{
@@ -73,7 +73,7 @@ div.wrap{
 }
 
 /*nav*/
-.navbar .nav {margin:35px 20px 0;
+.navbar .nav {margin:21px 20px 0;
 }
 .menu_wrap .nav li {
 	/*margin: 0;*/
