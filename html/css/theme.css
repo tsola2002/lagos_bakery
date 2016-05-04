@@ -15,6 +15,7 @@ a:hover, a:focus {
 	text-decoration:none;
 	color:#cba457;
 }
+
 body {
 	overflow-x:hidden;
 	position:relative;
@@ -24,11 +25,18 @@ body {
 	font-weight:400;
 	font-size: 13px;
 	line-height: 20px;
-	color: #9c9c9c;
-    background-image: url(../images/bg.jpg);
+	color: #706a64;
+    background-image: url(../images/bg-footer.png);
     background-position: 0 0 !important;
     background-repeat: repeat;
+	background-color: #fafafa;
 	}
+
+h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #e75a39;
+}
 .navbar {margin:0;
 }
 .box_shadow {
@@ -39,10 +47,19 @@ body {
 .header {
 	padding: 0 20px;
 	margin: 0 -20px;
-	background:url(../images/header_bg2.png) repeat-x #fff;
+	/*background:url(../images/header_bg3.png) repeat-x #fff;*/
+	border-top: 10px solid #e75a39;
 }
 
-.fleft {float:left;
+.fleft {
+	float:left;
+	padding-top: 22px;
+}
+
+.fleft a{
+	font-size: 41px;
+	font-family: Philosopher, Georgia, serif;
+	color: #e75a39;
 }
 .fright {float:right;
 }
@@ -80,7 +97,7 @@ div.wrap{
 	/*-webkit-border-radius: 5px;*/
 	/*-moz-border-radius: 5px;*/
 
-	background: rgba(242,234,236,1);
+	background-color: #fff;
 
 	/*-webkit-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);*/
 	/*-moz-box-shadow: 2px 2px 3px 1px rgba(199,195,199,1);*/
@@ -296,13 +313,15 @@ div.wrap{
 /* ________________________ //Post_prev Block ________________________ */
 
 h1, h2, h3, h4, h5, h6 {
-	color:#5f5f5f;
-	font-weight:400;
+	font-weight:700;
+	color: #e75a39;
+	font-family: Philosopher, Georgia, serif;
+
 }
 h2.title {
 	margin:0 0 24px 0;
 	line-height:25px;
-	font-size:18px;
+	font-size:25px;
 }
 
 h2.post_title a {
