@@ -7,7 +7,7 @@ textarea {
 	resize: none;
 }
 a {
-	color:#cba457;
+	color:#e75a39;
 	transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 }
@@ -619,11 +619,13 @@ ul.tweet_list {margin-left:0;
 	border: 1px solid #e8e8e8;
 }
 
+
+
 .contact_btn {
 	position:relative !important;
 	padding:6px 13px !important;
 	background-image:none;
-	background-color:#cba457 !important;
+	background-color:#e75a39 !important;
 	background-repeat:no-repeat;
 	border: 0 !important;
 	border-radius: 0;
@@ -665,6 +667,23 @@ ul.tweet_list {margin-left:0;
 	font-family: Philosopher, Georgia, serif;
 	font-weight: 700;
 	font-style: italic;
+}
+
+#footer form input.contact_us{
+	background-color: #fff;
+	border: 0 !important;
+	border-radius: 0;
+	box-shadow: none;
+	text-decoration:none;
+}
+
+#footer form input.contact_us:hover{
+	background-color: #f2f2f2;
+	border: 0 !important;
+	border-radius: 0;
+	box-shadow: none;
+	text-decoration:none;
+	color:fff;
 }
 
 .social ul{
