@@ -25,7 +25,7 @@ body {
 	font-weight:400;
 	font-size: 13px;
 	line-height: 20px;
-	color: #706a64;
+	color: #4a3b3c;
 
     background-position: 0 0 !important;background-image: url(../images/bg-footer.png);
     background-repeat: repeat;
@@ -247,7 +247,7 @@ div.wrap{
 	position:relative;
 	display:block;
 	padding:25px 135px 25px 15px;
-	color:#959595;
+	color:#4a3b3c;
 	background:#fff;
 	box-shadow:0 0 0 6px #fff;
 	border:1px solid #e75a39;
@@ -1237,6 +1237,39 @@ ul.recent_post div a:hover {color:#cba457;
 
 .our-team i.fa{
 	padding-top: 17px;
+}
+
+.services-section {
+	padding-bottom: 50px;
+}
+
+.core-services h1{
+	padding-bottom: 50px;
+}
+
+.services-section .rounded{
+	color: #e67e22;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	width: 90px;
+	height:90px;
+	border-radius: 500px;
+	transition: all 0.2s ease-in-out;
+}
+
+
+.services-section .rounded:hover{
+	transform: scale(1.2);
+}
+
+
+
+.services-section i.fa{
+	padding-top: 17px;
+}
+
+.services{
+	padding: 50px 0px;
 }
 
 
