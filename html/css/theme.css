@@ -330,6 +330,7 @@ h2.title {
 	margin:0 0 24px 0;
 	line-height:25px;
 	font-size:25px;
+	padding-top: 10px;
 }
 
 h2.post_title a {
@@ -1194,7 +1195,49 @@ ul.recent_post div a:hover {color:#cba457;
 /* __________________________________ //Bootstrap style __________________________________ */
 
 
+.about-us{
+	padding: 50px 0;
+}
 
+.about-us .rounded{
+	color: #e67e22;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	width: 90px;
+	height:90px;
+	border-radius: 500px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+
+.about-us .rounded:hover{
+	transform: scale(1.2);
+}
+
+.about-us i.fa{
+	padding-top: 17px;
+}
+
+.our-team .rounded{
+	color: #e67e22;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	width: 90px;
+	height:90px;
+	border-radius: 500px;
+	transition: all 0.2s ease-in-out;
+}
+
+.our-team .rounded:hover{
+	transform: scale(1.2);
+}
+
+.our-team i.fa{
+	padding-top: 17px;
+}
 
 
 
